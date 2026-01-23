@@ -6,11 +6,13 @@ import IconCommunity from '@/components/icons/IconCommunity.vue';
 <template>
   <main>
     <div class="butttons">
+    
       <BaseButton label="left-Icon" >
         <template #icon-left>
           <IconCommunity />
         </template>
       </BaseButton>
+    
       <BaseButton label="Double-Icon" >
         <template #icon-left>
           <IconCommunity />
@@ -19,12 +21,15 @@ import IconCommunity from '@/components/icons/IconCommunity.vue';
           <IconCommunity />
         </template>
       </BaseButton>
+    
       <BaseButton label="right-Icon" >
         <template #icon-right>
           <IconCommunity />
         </template>
       </BaseButton>
+    
     </div>
+    
   </main>
 </template>
 
